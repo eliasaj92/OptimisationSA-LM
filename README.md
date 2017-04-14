@@ -7,7 +7,10 @@ For Simulated annealing:  https://www.mathworks.com/matlabcentral/fileexchange/3
 
 For Levenberg-Marquardt: lm.m on page 7 of http://people.duke.edu/~hpgavin/ce281/lm.pdf
 
-For LM Matrix operations, Math.Net.Numerics was used to make things. However, it would be interesting to write out Matrix inversion
-and Multiplications later on.
+For LM Matrix operations, Math.Net.Numerics was used to make things faster. However, it would be interesting to write out Matrix inversion and Multiplications later on.
 
-This code can still be improved. However, I am happy to have been able to understand the steps of each algorithm.
+Program.cs implements a function, samples it, then adds random noise then uses both schemes to try to find the paramters again.
+
+Unfortunately results aren't satifactory possibly due to improvements in memory management being needed.
+
+This code can still(and will) be improved. However, as of this first publication, I am happy to have been able to understand the steps of each algorithm.
