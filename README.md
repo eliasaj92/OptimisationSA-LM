@@ -9,7 +9,11 @@ For Levenberg-Marquardt: lm.m on page 7 of http://people.duke.edu/~hpgavin/ce281
 
 For LM Matrix operations, Math.Net.Numerics was used to make things faster. However, it would be interesting to write out Matrix inversion and Multiplications later on.
 
-Program.cs implements a function, samples it, then adds random noise then uses both schemes to try to find the paramters again.
+Program.cs does the following:
+-implements a function with known paramters 
+-samples it 
+-adds random noise to these samples
+-uses both schemes to try to find the paramters again.
 
 Unfortunately results aren't satifactory possibly due to improvements in memory management being needed.
 
